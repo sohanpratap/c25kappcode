@@ -157,15 +157,15 @@
 						rArray = rounds.split('_');
 						round = rArray[1].split('.');
 						if(rArray[0]=='jogging'){							
-							//snd = new Audio('sounds/change_lap.mp3');								// for windows
+							snd = new Audio('sounds/change_lap.mp3');								// for windows
 							//snd = new Media('/android_asset/www/sounds/change_lap.mp3');			// for phone gap appapp
-							snd = new Media('sounds/change_lap.mp3');								// for ios phone gap app
+							//snd = new Media('sounds/change_lap.mp3');								// for ios phone gap app
 							snd.play();
 							laps++;
 						}else{
-							//snd = new Audio('sounds/bark.mp3');							// for windows
+							snd = new Audio('sounds/bark.mp3');							// for windows
 							//snd = new Media('/android_asset/www/sounds/bark.mp3');			// for phone gap app
-							snd = new Media('sounds/bark.mp3');								// for phone gap app
+							//snd = new Media('sounds/bark.mp3');								// for phone gap app
 							snd.play();
 						}
 						//set variable for next round
