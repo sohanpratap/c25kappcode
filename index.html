@@ -13,7 +13,7 @@
 		<link type="text/css" rel="stylesheet" href="touchslider.css" />
 		<link href="css.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript" src="jquery-1.6.4.js"></script>
-		<!--<script type="text/javascript" src="cordova-2.7.0.js"></script>-->				<!-- for phone gap-->
+		<script type="text/javascript" src="cordova-2.7.0.js"></script>				<!-- for phone gap-->
 		<script type="text/javascript" src="touchslider.js"></script>
 		<script>
 			var myVar;
@@ -33,8 +33,8 @@
 			var eTime = '';
 			var snd;
 			function countdown(){
-				snd = new Audio('sounds/welcome.mp3');								// for windows
-				//snd = new Media('/android_asset/www/sounds/welcome.mp3');			// for phone gap app
+				//snd = new Audio('sounds/welcome.mp3');								// for windows
+				snd = new Media('/android_asset/www/sounds/welcome.mp3');			// for phone gap app
 				snd.play();
 				$('#nextPrevDiv').show();
 				cArray = cTime.split(':');
@@ -156,13 +156,13 @@
 						rArray = rounds.split('_');
 						round = rArray[1].split('.');
 						if(rArray[0]=='jogging'){							
-							snd = new Audio('sounds/change_lap.mp3');								// for windows
-							//snd = new Media('/android_asset/www/sounds/change_lap.mp3');			// for phone gap app
+							//snd = new Audio('sounds/change_lap.mp3');								// for windows
+							snd = new Media('/android_asset/www/sounds/change_lap.mp3');			// for phone gap app
 							snd.play();
 							laps++;
 						}else{
-							snd = new Audio('sounds/bark.mp3');										// for windows
-							//snd = new Media('/android_asset/www/sounds/bark.mp3');			// for phone gap app
+							//snd = new Audio('sounds/bark.mp3');										// for windows
+							snd = new Media('/android_asset/www/sounds/bark.mp3');			// for phone gap app
 							snd.play();
 						}
 						//set variable for next round
