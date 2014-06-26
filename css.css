@@ -1,0 +1,526 @@
+@charset "utf-8";
+*{padding:0px; margin:0px;}
+img {width:100%; height:auto;}
+.wrapper {
+    background-image: url("images/bg.jpg");
+    background-repeat: repeat;
+    height: auto;
+    float:left;
+    max-width: 100%;
+}
+
+.top-bar {
+    background-image: url("images/top-bar.jpg");
+    background-repeat: repeat-x;
+    float: left;b
+    height: 10px;
+    width: 100%;
+}
+.opa{background-color:rgba(0,0,0,0.3)!important;}
+.opa-white{background-color:rgba(255,255,255,0.1)!important;}
+
+/*Main info Start*/
+.main-top-info {
+    background-color: #000000;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.main-date {
+    float: left;
+    height: auto;
+    width: 32.25%;
+}
+
+.date-text-1 {
+    color: #FFFFFF;
+    font-family: "Myriad Pro","Myriad Pro Cond","Myriad Pro Light";
+    font-size: 120px;
+    font-weight: normal;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: -2px -2px 2px #000000;
+}
+.date-text-2 {
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 26px;
+	font-weight: normal;
+	color: #FFF;
+	text-align: center;
+
+}
+
+.main-week {
+    border-left: 1px solid #666666;
+    float: left;
+    height: auto;
+    width: 33.25%;
+}
+
+.week-text-1 {
+    color: #FFFFFF;
+    font-family: "Myriad Pro","Myriad Pro Cond","Myriad Pro Light";
+    font-size: 50px;
+    font-weight: normal;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.week-text-2 {
+    color: #E8B220;
+    font-family: "Myriad Pro","Myriad Pro Cond","Myriad Pro Light";
+    font-size: 100px;
+    font-weight: normal;
+    height: auto;
+    text-align: center;
+    text-shadow: -2px -2px 2px #000000;
+}
+
+.main-day {
+    border-left: 1px solid #666666;
+    float: left;
+    height: auto;
+    width: 33.25%;
+}
+/*Main info End*/
+
+/*Time Start*/
+
+.time-per {
+    float: left;
+    height: auto;
+    width: 100%;
+	margin: 0 0 20px;
+}
+
+.duration {
+    float: left;
+    height: auto;
+    width: 50%;
+}
+.duration-data {
+	background-image: url(images/bg-duration.png);
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 300px;
+	margin:0 auto;
+	margin-top:40px;
+}
+.dur-text-1 {
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 35px;
+	color: #e8b11d;
+	text-align: center;
+	padding-top: 60px!important;
+	font-weight: normal;
+}
+.dur-text-2 {
+	height:auto;
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 130px;
+	color: #fff;
+	text-align: center;
+	margin-top:-15px;
+	text-shadow:-2px -2px 2px #000000;
+}
+.dur-text-3 {
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+}
+
+/*.dur-circle-top {
+	width: 300px;
+    height: 300px;
+    -webkit-border-radius: 180px;
+    -moz-border-radius: 180px;
+    border-radius: 180px;
+	background-color:rgba(255,255,255,0.5);
+	margin:0 auto;
+	margin-top:50px;
+}
+.dur-circle-mid {
+	width: 250px;
+    height: 250px;
+    -webkit-border-radius: 180px;
+    -moz-border-radius: 180px;
+    border-radius: 180px;
+	background-color:rgba(0,0,0,0.5);
+	margin:0 auto;
+	margin-top:25px!important;
+}*/
+.per {
+    float: left;
+    height: auto;
+    width: 50%;
+}
+
+.per-data {
+	background-image: url(images/bg-per.png);
+	background-repeat: no-repeat;
+	height: 288px;
+	width: 288px;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+.day-select {
+height: 14px;
+width: 16px;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: 200px;
+float: left;
+}
+
+.per-text-1 {
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 70px;
+	color: #fff;
+	text-align: center;
+	padding-top:110px;
+	text-shadow:-2px -2px 2px #000000;
+}
+/*Time End*/
+
+
+
+/*Mid info Start*/
+
+.mid-info {
+    background-color: #000000;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.elapsed {
+    float: left;
+    height: auto;
+    width: 32.25%;
+}
+.elap-text-1{
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	margin-top:40px;
+}
+
+.elap-text-2{
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 70px;
+	color: #FFF;
+	text-align: center;
+	}
+
+
+.ready {
+    border-left: 1px solid #666666;
+    float: left;
+    height: auto;
+    width: 33.25%;
+}
+
+.ready-text-1{
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 40px;
+	color: #FFF;
+	text-align: center;
+	margin-top:30px;
+}
+.slide-option-text-1 {
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 24px;
+	color: #FFF;
+	text-align: center;
+	height: 26px;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.ready-text-2{
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 75px;
+	color: #FFF;
+	text-align: center;
+	}
+
+
+.remain {
+    border-left: 1px solid #666666;
+    float: left;
+    height: auto;
+    width: 32.25%;
+}
+/*Mid info End*/
+
+/*Start start*/
+
+.start {
+    border-bottom: 1px solid #666666;
+    border-top: 1px solid #666666;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+
+.start-btn {
+    background-color: #E8B11D;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Myriad Pro","Myriad Pro Cond","Myriad Pro Light";
+    font-size: 40px;
+    height: auto;
+    letter-spacing: 5px;
+    margin: 3% auto;
+    padding-top: 5px;
+    text-align: center;
+    width: 250px;
+}
+/*.pause-btn{
+    background-color: #E8B11D;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Myriad Pro","Myriad Pro Cond","Myriad Pro Light";
+    font-size: 40px;
+    height: auto;
+    letter-spacing: 5px;
+    margin: 3% auto;
+    padding-top: 5px;
+    text-align: center;
+    width: 250px;
+}*/
+/*Start End*/
+
+
+/*Slide Start*/
+
+.slide {
+    color: #FFFFFF;
+    float: left;
+    font-family: "Myriad Pro","Myriad Pro Cond","Myriad Pro Light";
+    font-size:15px;
+    height: auto;
+    padding: 45px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+}
+/*Slide End*/
+
+
+/*slide-bar-main Start*/
+
+.slide-bar-main {
+    border-bottom: 1px solid #666666;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.slide-line-top {
+	height: 5px;
+	width: 100%;
+	background-color: #666;
+}
+
+
+.slide-option {
+    background-color: rgba(255, 255, 255, 0.1);
+    float: left;
+    height: 116px;
+    margin: 0.3% 1% 0 140px;
+    width: 18%;
+}
+
+.slide-option-text-1 {
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 26px;
+	text-align: center;
+	height: 26px;
+	width: 100%;
+	margin-top: 12px;
+	color: #e8b11d;
+}
+.slide-option-text-2 {
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 26px;
+	text-align: center;
+	height: 26px;
+	width: 100%;
+	margin-top: 13px;
+	color:#e8b11d;
+}
+
+.slide-option-text-3 {
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 26px;
+	text-align: center;
+	height: 26px;
+	width: 100%;
+	margin-top: 26px;
+    color:#fff;
+}
+.slide-option-text-4 {
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 26px;
+	text-align: center;
+	height: 26px;
+	width: 100%;
+	margin-top: 13px;
+	color:#fff;
+}
+
+/*slide-bar-main End*/
+.next-btn {
+    margin:0 auto;
+    height: auto;
+    padding:0;
+    width:1000px;
+}
+
+.btn {
+    float: left;
+    margin: 0 10px;
+    width: 5%;
+}
+
+.work-text {
+    color: #FFFFFF;
+    float: left;
+    font-family: "Myriad Pro","Myriad Pro Cond","Myriad Pro Light";
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+/*Footer Start*/
+
+.footer {
+    background-color: #000000;
+    float: left;
+    height: auto;
+    margin-top: 35px;
+    width: 100%;
+}
+.icon {
+	float: left;
+	height: auto;
+	width: 50px;
+	margin-top:8px;
+	margin-left:12px;
+}
+.more-apps
+{
+	height: auto;
+	width: 155px;
+	float: right;
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-size: 22px;
+	color: #000;
+	text-align: center;
+	padding-top: 20px;
+	margin-right: 10px;
+	background-image: url(images/more.png);
+	background-repeat: no-repeat;
+	}
+.btn-wrapper {border-bottom: 1px solid #666666; float: left; height: auto; padding: 10px 0; width: 100%;}
+canvas{ width:100%; height:auto; float:left;}
+
+.active .slide-option-text-3{color: #e8b11d;}
+.active .slide-option-text-4{color: #e8b11d;}
+
+/***************** MEDIA QUERY ******************************/
+@media all and (min-width:601px) and (max-width:1000px) {
+.next-btn {width: 600px;}
+.work-text { width: 80%;}
+.more-apps {font-size: 20px; padding: 20px 0;}
+.day-select {margin-left: 200px;  float: left;}
+}
+
+@media all and (min-width:481px) and (max-width:600px) {
+.work-text {width: 50%;}
+.next-btn {margin:0 auto; height: auto; padding:0; width:480px !important;}
+.duration-data {background-image: url("images/bg-duration-mid.png"); background-repeat: no-repeat; height:200px; margin:55px auto 0; width:200px;}
+.per-data { background-image: url("images/bg-per-mid.png"); background-repeat: no-repeat; height:200px; margin:61px auto 0;  width:200px;}
+.work-text { width: 80%;}
+.elap-text-1 { font-size:15px;}
+.elap-text-2 {font-size:30px;}
+.ready-text-1 {font-size:20px;}
+.ready-text-2 {font-size:45px;}
+.dur-text-1 {font-size: 15px; padding-top: 30px !important;}
+.dur-text-2 {font-size:85px; height: auto; margin: 0;}
+.dur-text-3 {font-size: 15px;}
+.per-text-1 {font-size: 50px; padding-top: 75px;}
+.icon { width: 38px;}
+.more-apps {font-size: 20px; padding: 20px 0;}
+}
+
+@media all and (min-width:320px) and (max-width:480px) {
+.date-text-1 {font-size: 60px !important;}
+.date-text-2 {font-size: 16px !important;}
+.week-text-1 {font-size: 20px;}
+.week-text-2 {font-size: 60px;}
+.slide-option-text-1 {font-size: 16px;}
+.slide-option-text-2 {font-size: 16px;}
+.slide-option-text-3 {font-size: 16px;}
+.slide-option-text-4 {font-size: 16px;}
+.work-text { width:65%;}
+.btn { width:30px;}
+.icon { width: 30px;}
+.elap-text-1 { font-size:15px;}
+.elap-text-2 {font-size:30px;}
+.ready-text-1 {font-size:20px;}
+.ready-text-2 {font-size:45px;}
+.duration-data {background-image: url("images/bg-duration-small.png"); background-repeat: no-repeat; height:155px; margin: 55px auto 0; width: 155px;}
+.per-data {background-image: url("images/bg-per-small.png"); background-repeat: no-repeat; height: 155px; margin: 61px auto 0; width: 155px;}
+.dur-text-1 {font-size: 15px; padding-top: 30px !important;}
+.dur-text-2 {font-size: 55px; height: auto; margin: 0;}
+.dur-text-3 {font-size: 15px;}
+.per-text-1 {font-size: 35px; padding-top: 60px;}
+.next-btn {margin:0 auto; height: auto; padding:0; width:320px;}
+.start-btn {font-size: 25px;width: 150px;}
+/*.pause-btn {font-size: 25px;width: 150px;}*/
+.more-apps {font-size: 15px; padding: 10px 0;}
+}
+
+@media all and (min-width:150px) and (max-width:319px) {
+.date-text-1 {font-size: 40px !important;}
+.date-text-2 {font-size: 10px !important;}
+.week-text-1 {font-size: 15px;}
+.week-text-2 {font-size: 40px;}
+.duration { float: left; height: auto; width:50%;}
+.per {float: left; height: auto; width:50%;}
+.duration-data {background-image: url("images/bg-duration-xtra-small.png"); background-repeat: no-repeat; height:75px; margin: 20px auto 0; width:75px;}
+.per-data {background-image: url("images/bg-per-xtra-small.png"); background-repeat: no-repeat; height:75px; margin: 20px auto 0; width:75px; }
+.dur-text-1 {font-size: 10px; padding-top:17px !important;}
+.dur-text-2 {font-size: 20px; height: auto; margin: 0;}
+.dur-text-3 {font-size: 7px;}
+.per-text-1 {font-size: 16px; padding-top: 27px;}
+.elap-text-1 { font-size:10px;}
+.elap-text-2 {font-size:20px;}
+.ready-text-1 {font-size:13px;}
+.ready-text-2 {font-size:25px;}
+.slide-option { height:auto;}
+.slide-option-text-1 {font-size: 10px;}
+.slide-option-text-2 {font-size: 10px;}
+.slide-option-text-3 {font-size: 10px;}
+.slide-option-text-4 {font-size: 10px;}
+.start-btn {font-size: 15px;width: 100px;}
+/*.pause-btn {font-size: 15px;width: 100px;}*/
+.icon { width: 25px;}
+.more-apps {font-size:10px; padding: 12px 0; width:100px; margin:0 5px 0 0;}
+.slide {font-size: 16px;}
+.btn {float: left; margin: 0 5px;  width:15px;}
+.work-text { font-size:15px; width: 100px;}
+.next-btn { width:150px;}
+}
+
