@@ -33,9 +33,9 @@
 			var eTime = '';
 			var snd;
 			function countdown(){
-				//snd = new Audio('sounds/welcome.mp3');							// for windows
+				snd = new Audio('sounds/welcome.mp3');							// for windows
 				//snd = new Media('/android_asset/www/sounds/welcome.mp3');			// for phone gap app
-				snd = new Media('sounds/welcome.mp3');								// for ios phone gap app
+				//snd = new Media('sounds/welcome.mp3');								// for ios phone gap app
 				snd.play();
 				$('#nextPrevDiv').show();
 				cArray = cTime.split(':');
